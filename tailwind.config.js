@@ -1,11 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './templates/**/*.html'
-  ],
+  darkMode: "media",
+  content: ['./templates/**/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        angsana: ["Angsana New"],
+        athiti: ["Athiti"],
+        kanit:["Kanit"]
+      }
+    },
   },
   plugins: [],
 }
-
